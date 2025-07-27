@@ -1,0 +1,92 @@
+
+--:root {
+    --main_1: #09BCE1;
+    --main_2: #333A6E;
+    --main_3: #C885F2;
+}
+body {
+    font-family: 'fangsong', math;
+}
+.myCalss {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-block {
+    margin-top: 40px;
+}
+
+@media (max-width: 576px) {
+    .resume-profile {
+        display: none;
+    }
+}
+.progress{
+    height: 1.5rem;
+}
+.my-resume {
+        margin-bottom: 50px;
+} 
+.resume-profile {
+    padding-top: 15px;
+    background-color: #333A6E;
+    color: white;
+    position: fixed;
+    z-index: 55;
+    height: 100vh;
+    margin: 2px;
+}
+.rounded-circle{
+    width: 100px;
+    height: 100px;
+
+}
+.resume-info {
+    padding-top: 25px;
+}
+.resume-info-section {
+padding-bottom: 50px;
+}
+.resume-info-section > h2 {
+     margin: 0px 0px 10px 0px;
+}
+.resume-info-section-block {
+    display: table;
+    margin-top: 35px;
+
+}
+.list-unstyled.tag-list > li  {
+    float: left;
+    background: #efefef;
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    color: #000;
+}
+*{
+    scroll-behavior: smooth !important;
+}
+
+.list-inline-item svg path {
+    fill: white;
+}
+.list-group-c li a {
+    color: white;
+}
+.list-group-c li {
+    margin-top: 20px;
+    padding-left: 15px; 
+}
+
+.left-border-header {
+    border-left: 5px solid #333A6E;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #C885F2;
+}
+.border-radius-none {
+    border-radius: 0px;
+}
